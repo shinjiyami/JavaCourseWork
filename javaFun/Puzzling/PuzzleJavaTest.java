@@ -5,5 +5,8 @@ public class PuzzleJavaTest {
         System.out.println(puzzle.greaterArray(testArray));
         String[] testArray2 = {"Nancy", "Jinichi", "Fujibayashi", "Momochi", "Ishikawa"};
         System.out.println(puzzle.randomNameArray(testArray2));
+        System.out.println(puzzle.shuffleAlpha());
+        System.out.println(puzzle.randomArray());
+        System.out.println(puzzle.randomArraySort());
     }
 }
